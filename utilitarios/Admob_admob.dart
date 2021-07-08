@@ -261,22 +261,18 @@ iOS: ca-app-pub-3940256099942544/1712485313
 
 String getAppId() {
   if (Platform.isIOS) {
-    return//'ca-app-pub-3940256099942544~3347511713' ;
-     'ca-app-pub-4176720932941669~6654175820';
+    return'ca-app-pub-3940256099942544~3347511713' ;
   } else if (Platform.isAndroid) {
-    return//'ca-app-pub-3940256099942544~3347511713' ;//teste
-'ca-app-pub-1005929281486446~3431719564';
+    return'ca-app-pub-3940256099942544~3347511713' ;//teste
   }
   return null;
 }
 
 String getBannerAdUnitId() {
   if (Platform.isIOS) {
-    return //'ca-app-pub-3940256099942544/6300978111';
-      'ca-app-pub-4176720932941669/6523682804';
+    return 'ca-app-pub-3940256099942544/6300978111';
   } else if (Platform.isAndroid) {
-    return //'ca-app-pub-3940256099942544/6300978111';//teste
-    'ca-app-pub-1005929281486446/9348043618';
+    return 'ca-app-pub-3940256099942544/6300978111';//teste
 
   }
   return null;
@@ -286,8 +282,7 @@ String getInterstitialAdUnitId() {
   if (Platform.isIOS) {
     return 'ca-app-pub-4176720932941669/9824455953';
   } else if (Platform.isAndroid) {
-    return //'ca-app-pub-3940256099942544/1033173712';//teste
-    'ca-app-pub-1005929281486446/6721880276';
+    return 'ca-app-pub-3940256099942544/1033173712';//teste
   }
   return null;
 }
@@ -296,8 +291,7 @@ String getRewardBasedVideoAdUnitId() {
   if (Platform.isIOS) {
     return 'ca-app-pub-4176720932941669/6659731402';
   } else if (Platform.isAndroid) {
-    return //'ca-app-pub-3940256099942544/5224354917';//teste
- 'ca-app-pub-1005929281486446/2033539658';
+    return 'ca-app-pub-3940256099942544/5224354917';//teste
 
   }
 
